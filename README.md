@@ -51,6 +51,12 @@ CLIP is run **once**, on CPU, and its embeddings are cached. That keeps the 63 M
 
 ## Architecture
 
+![NeuroFiLM architecture](figures/architecture_overview.png)
+
+*In the diagram, the report arrow points at Encoder 4 for layout reasons. In the model the text embedding does not enter the encoder: it only drives the FiLM layers at the bottleneck and the four decoder stages (the bottleneck's FiLM is not drawn).*
+
+The same structure as a flowchart:
+
 ```mermaid
 flowchart TB
     IN["FLAIR slice<br/>[B,1,128,128]"] --> E1["Enc 1: 1→32"]
