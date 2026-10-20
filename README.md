@@ -7,8 +7,6 @@
 [![Params](https://img.shields.io/badge/Params-8.78M-blue)](#architecture)
 [![Dice](https://img.shields.io/badge/Whole--tumor%20Dice-0.855-brightgreen)](#results)
 
-> Authors: Sudarshan Sudhakar (CS23B2007), Tarun M (CS23B2004) — Deep Learning final project.
-> Files: `DL Project Code CS23B2007 (1).ipynb` (code), `DL_Project_Report_CS23B2007 (1).pdf` (paper), `DL_Project_Slides_CS23B2007.pdf` (slides).
 
 ---
 
